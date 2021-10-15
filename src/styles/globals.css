@@ -1,0 +1,39 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* -------- */
+  /* Spacing: */
+  /* -------- */
+  /* Small devices (landscape phones, 576px and up) */
+  --sm: 576px;
+  /* Medium devices (tablets, 768px and up) */
+  --md: 768px;
+  /* Large devices (desktops, 992px and up) */
+  --lg: 992px;
+  /* Extra large devices (large desktops, 1200px and up) */
+  --xl: 1200px;
+  /* -------- */
+  /* Palette: */
+  /* -------- */
+  /* Light mode: */
+  --primary: #005e1c;
+  --background: #ffffff;
+  --color: #121212;
+}
+
+/* Dark mode: */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --color: #ffffff;
+  }
+}
