@@ -12,6 +12,7 @@ const Contact: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <h1>contact page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga
         libero temporibus cum, est aspernatur sapiente aliquid recusandae
