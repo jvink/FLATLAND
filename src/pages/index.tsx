@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { useState } from "react";
+import Modal from "../components/Modal/Modal";
 
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -11,6 +15,10 @@ const Home: NextPage = () => {
         <meta name="description" content="FOR TESTING PURPOSES" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Modal open={modalOpen} onClose={() => setModalOpen(false)} />
+
+      <button onClick={() => setModalOpen(true)}>Open modal</button>
 
       <table className={styles.table}>
         <thead>

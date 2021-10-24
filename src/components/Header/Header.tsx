@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-import Menu from "./Menu";
+import Menu from "../Menu/Menu";
 import styles from "./Header.module.css";
 
 export default function Header() {
