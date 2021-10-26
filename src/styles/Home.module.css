@@ -1,15 +1,8 @@
-.table {
-  text-align: center;
-  width: 100%;
-}
-
-.th {
-  background: #f8f8f8;
-  font-weight: bold;
-}
-
-.td {
-  border-bottom: 1px solid #ddd;
+.title--highlight {
+  font-size: 72px;
+  background: linear-gradient(90deg, #8e42a7 0%, #ff8888 250px);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
-  padding: 15px 10px;
 }
